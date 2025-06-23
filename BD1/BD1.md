@@ -1,4 +1,9 @@
 # Configuración de Servidor Maestro - MariaDB (192.168.1.104)
+## Objetivo del Servidor Maestro
+
+Configurar y gestionar el servidor principal de base de datos `MariaDB` que contendrá la base de datos original (`biblioteca`) y generará los logs binarios que serán replicados hacia el servidor esclavo. Este servidor será responsable de recibir las operaciones de escritura (INSERT, UPDATE, DELETE) y asegurar la disponibilidad de los datos para replicación.
+
+El maestro funcionará como la **fuente única de verdad**, enviando automáticamente todos los cambios registrados a su base de datos al servidor esclavo configurado.
 
 ## Paso 1: Configurar el archivo del servidor
 Editar el archivo:
