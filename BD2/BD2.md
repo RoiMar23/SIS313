@@ -1,4 +1,9 @@
 # Configuración de Servidor Esclavo - MariaDB (192.168.1.105)
+## Objetivo del Servidor Esclavo
+
+Configurar el servidor de base de datos `MariaDB` como esclavo, permitiéndole recibir y aplicar de forma automática todas las modificaciones realizadas en el servidor maestro. El objetivo es asegurar redundancia, respaldo en tiempo real y tolerancia a fallos.
+
+Este servidor funcionará en **modo lectura**, manteniéndose sincronizado con el maestro, y podrá utilizarse para consultas, análisis, y respaldo sin afectar el rendimiento del servidor principal.
 
 ## Paso 1: Configurar el archivo del servidor
 Editar el archivo:
