@@ -70,7 +70,7 @@ VALUES ('Cien años de soledad', 'Gabriel García Márquez', 1967, 'Sudamericana
 ```
 
 ## Acontinuacion Aplicaremos el RAID1 dentro nuestra base de datos Maestro.
-- [RAID1 (En la Base Maestro)](./BD1/RAID1.md)
+- [RAID1 (En la Base Maestro)](./RAID1.md)
 
 
 
