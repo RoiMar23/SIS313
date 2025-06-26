@@ -67,3 +67,10 @@ En el servidor maestro (192.168.1.104), ejecuta:
 USE biblioteca;
 INSERT INTO libros (titulo, autor, ano, publicacion, precio)
 VALUES ('Cien años de soledad', 'Gabriel García Márquez', 1967, 'Sudamericana', 80.00);
+```
+
+## Acontinuacion Aplicaremos el RAID1 dentro nuestra base de datos Maestro.
+- [RAID1 (En la Base Maestro)](./BD1/RAID1.md)
+
+
+
