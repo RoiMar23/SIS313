@@ -169,7 +169,7 @@ si todo salio bien, devuelve: Servidor API corriendo en http://localhost:3002
 
 para verificar la pp2:
 ```bash
-192.168.100.30:3002
+192.168.1.103:3002
 ```
 
 con el balanceador:
